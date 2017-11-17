@@ -1,9 +1,9 @@
 @charset "UTF-8";
-@import url(//fonts.googleapis.com/css?family=Cabin:400,700);
+@import url(//fonts.googleapis.com/css?family=Roboto:400,700);
 @import url(//fonts.googleapis.com/css?family=Special+Elite:400,700);
-@import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(//cdn.jsdelivr.net/npm/hack-font/build/web/hack.css);
 .reveal {
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #555555;
   /* Make sure keyboard shortcuts help is visible */
@@ -52,7 +52,7 @@
   color: grey;
 }
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-  font-family: "Cabin", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -90,7 +90,7 @@
   text-transform: none;
 }
 .reveal pre code {
-  font-family: "Source Code Pro", monospace !important;
+  font-family: "Hack", monospace !important;
   background: inherit !important;
   text-shadow: none;
   text-transform: none;
