@@ -1,30 +1,29 @@
-# Main title
+## A simple example
 
-Note: Add main section slides here.
+`ruby-sass`
 
-
-## Level 2 heading
-
-Some additional information
+Note:
 
 
-### Level 3 heading
-
-* A bullet list.
-* Use these sparingly.
+## Interesting challenges
 
 
-Just some text
+## Reproducible setup
 
-```bash
-#!/bin/sh
 
-# This is a code snippet.
-# It comes with syntax highlighting.
+## Cloning, snapshots, and subvolumes
 
-NUM=5
 
-for i in `seq $NUM`; do
-  echo "hello world $i"
-done
-```
+## X applications
+
+Note: Firefox with flash in container
+
+
+## Sound
+
+Note: https://hpr.dogphilosophy.net/test/
+
+
+## USB device pass-through
+
+Note: Skype from browser in container
