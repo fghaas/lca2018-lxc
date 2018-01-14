@@ -1,12 +1,12 @@
 <!-- .slide: data-background-image="images/citynetwork-logo.svg"  data-background-size="10% 10%" data-background-position="10% 10%" -->
-# Title
+## Please Contain Me
 
-Subtitle or catchy tagline
+Practical LXC on the Desktop
 
 * * *
 
-Speaker Name | [@speaker](https://twitter.com/speaker)
+Florian Haas | [@xahteiwi](https://twitter.com/xahteiwi)
 
-Event | Date
+linux.conf.au 2018 | January 26, 2018
 
-Note: Add introductory slides here.
+
