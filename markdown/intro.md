@@ -41,9 +41,16 @@ using 1 or more
 ## namespaces
 
 
-### System containers
+### System
 vs.
-### Application containers
+### Application
+containers
+
+
+### Privileged
+vs.
+### Unprivileged
+containers
 
 
 ## Keeping `/` lean
