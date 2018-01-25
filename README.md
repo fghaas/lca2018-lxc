@@ -20,7 +20,7 @@ lxc-create -n xenial-sass -t ubuntu-cloud -- \
   --tarball=https://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-amd64-root.tar.xz
 
 lxc-start -n xenial-sass
-lxc-attach -n xenial-sass 
+lxc-attach -n xenial-sass
 
 apt update
 apt install ruby-sass ruby-listen
@@ -86,8 +86,8 @@ ansible-playbook -i ../ansible-laptop-inventory/inventory local.yml
 ```bash
 ansible -i ../ansible-laptop-inventory/lxc_inventory.py \
         -m raw \
-		-a "apt-get --yes install python"
-		
+        -a "apt-get --yes install python"
+
 ansible-playbook -i ../ansible-laptop-inventory/lxc_inventory.py \
                  -t lxc local.yml
 ```
