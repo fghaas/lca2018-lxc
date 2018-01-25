@@ -33,6 +33,19 @@ Note: Why would you want to run applications in containers on your
 desktop? Specifically, why in _system_ containers?
 
 
+## What’s a container?
+
+
+## Process
+using 1 or more
+## namespaces
+
+
+### System containers
+vs.
+### Application containers
+
+
 ## Keeping `/` lean
 
 Note: I’d like to have as few packages in my root filesystem as
