@@ -9,16 +9,22 @@ Florian Haas | [@xahteiwi](https://twitter.com/xahteiwi)
 
 linux.conf.au 2018 | January 26, 2018
 
-Note: Hi, im Florian, and it’s wonderful to be able to be here and
-speak at LCA again, and thanks a bunch for coming not only on the
-final afternoon of the conference, but also to the talk that is
-scheduled directly opposite Sage, which I would have loved to attend
-as well — I guess we’ll all catch the video, because that talk will
-surely be a highly informative one on Ceph. But here, we want to talk
-about something that hasn’t anything to do with storage, not even with
-servers much — it’s all about managing your desktop in a manner that,
-I hope you’ll agree, is simple and effective and gets the job
-done.
+Note: I would like to acknowledge the Gadigal of the Eora Nation, the
+traditional custodians of this land and pay my respects to the Elders
+both past and present.
+
+I would also like to acknowlege Linux Australia, the custodians of
+LCA, and pay my respects to all conference organizers and volunteers
+past and present, who year after year manage to put together a
+one-of-a-kind conference that I and many others love coming back to.
+
+I’m Florian, I work for City Network, and we love OpenStack. We run a
+public OpenStack cloud spanning 8 global regions, and a bunch of
+private and managed clouds. And that’s what I mostly talk about in
+conferences, including my talk from earlier this week at the Open
+Education miniconf. And as it happens we do use LXC — a lot — in our
+OpenStack deployment, but what I’m talking about _here_ is a
+completely different use case, that is containers on the desktop.
 
 That said, I do want to mention upfront that nothing I talk about here
 is The Only Way. There are several ways to run a containerized
@@ -30,9 +36,12 @@ half now.
 ## What’s a container?
 
 
-## Process
+### Process
 using 1 or more
-## namespaces
+### namespaces
+and
+### cgroups
+(plus an LSM, possibly)
 
 
 ### System
