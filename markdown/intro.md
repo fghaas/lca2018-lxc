@@ -27,12 +27,6 @@ I’ve been using it on a daily basis for something like a year and a
 half now.
 
 
-# Why?
-
-Note: Why would you want to run applications in containers on your
-desktop? Specifically, why in _system_ containers?
-
-
 ## What’s a container?
 
 
@@ -51,6 +45,12 @@ containers
 vs.
 ### Unprivileged
 containers
+
+
+# Why?
+
+Note: Why would you want to run applications in containers on your
+desktop? Specifically, why in _system_ containers?
 
 
 ## Keeping `/` lean
@@ -144,3 +144,6 @@ it suits me better than several alternatives:
   rarely have to test how something behaves under different
   kernels. And when I do, it’s usually easier to spin up a cloud
   instance in OpenStack that fire something up in local KVM.
+
+
+https://github.com/fghaas/lca2018-lxc
