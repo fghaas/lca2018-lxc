@@ -95,12 +95,12 @@ Note:
 
 ## USB device pass-through
 
-Note: 
-By default, containers don’t see USB devices plugged into the
+Note: By default, containers don’t see USB devices plugged into the
 host, because they get their own fake `/sys` and `/dev`
-tree. Sometimes however, I do want to USB devices accessible to my
-container. One such example is my webcam which I want to be able to
-use in conjunction with Zoom meetings.
+tree. Sometimes however, I do want to make USB devices accessible to
+my container. One such example is my webcam which I want to be able to
+use in conjunction with Zoom meetings. Here, what LXC helps me do is
+pass through _just_ the devices that I want to, and no others.
 
 
 <!-- .slide: data-background-iframe="http://localhost:4200/" data-background-size="contain" -->
@@ -124,6 +124,14 @@ baseline configuration (in my case, just 1-3 Ubuntu releases), it
 would be silly and time-consuming to always create containers from
 their templates. Luckily, we can do things much more easily (and much
 faster!) by using LXC clones in combination with btrfs snapshots.
+
+When we use `-B btrfs`, then `lxc-create` creates a new btrfs
+_subvolume_ in either `/var/lib/lxc` or `~/.local/share/lxc` to hold
+the `rootfs` of the container. If we subsequently use `lxc-copy` with
+the `-s` option, then the lxc userland creates a new _snapshot_ off
+that subvolume. The latter is particularly useful, because it can
+create a container almost instantaneously (that is, in under a
+second), which makes container spin-up and tear-down a breeze.
 
 
 <!-- .slide: data-background-iframe="http://localhost:4200/" data-background-size="contain" -->
