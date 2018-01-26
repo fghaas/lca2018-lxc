@@ -3,7 +3,7 @@
 `ruby-sass`
 
 
-<!-- .slide: data-background-iframe="http://localhost:4200/" data-background-size="contain" -->
+The presentation contains a live screen demo at this stage.
 
 Note: This is a container that simply includes a Ruby runtime, and the
 `ruby-sass` package in Ubuntu (to serve the same purpose, I could also
@@ -27,7 +27,7 @@ the `sass` binary being available, of course:
   container.
 
 
-<!-- .slide: data-background-iframe="http://localhost:4200/" data-background-size="contain" -->
+The presentation contains a live screen demo at this stage.
 
 Note: 
 * `vi ~/.local/share/lxc/xenial-sass/config`
@@ -61,7 +61,7 @@ but that requires that we always have a running SSH server, and I
 prefer a more direct method. 
 
 
-<!-- .slide: data-background-iframe="http://localhost:4200/" data-background-size="contain" -->
+The presentation contains a live screen demo at this stage.
 
 Note:
 * `vi ~/.local/share/lxc/xenial-firefox-java/config`
@@ -84,7 +84,7 @@ on my host, and then have applications in the container connect to
 that, instead.
 
 
-<!-- .slide: data-background-iframe="http://localhost:4200/" data-background-size="contain" -->
+The presentation contains a live screen demo at this stage.
 
 Note:
 * `pactl load-module module-native-protocol-tcp`
@@ -103,7 +103,7 @@ use in conjunction with Zoom meetings. Here, what LXC helps me do is
 pass through _just_ the devices that I want to, and no others.
 
 
-<!-- .slide: data-background-iframe="http://localhost:4200/" data-background-size="contain" -->
+The presentation contains a live screen demo at this stage.
 
 Note:
 * `vi ~/.local/share/lxc/xenial-zoom/config`
@@ -134,7 +134,7 @@ create a container almost instantaneously (that is, in under a
 second), which makes container spin-up and tear-down a breeze.
 
 
-<!-- .slide: data-background-iframe="http://localhost:4200/" data-background-size="contain" -->
+The presentation contains a live screen demo at this stage.
 
 Note:
 * `time lxc-create -B btrfs -n xenial-test -t ubuntu-cloud -- --release xenial --tarball https://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-amd64-root.tar.xz`
@@ -146,7 +146,7 @@ Note:
 Ansible ftw!
 
 
-<!-- .slide: data-background-iframe="http://localhost:4200/" data-background-size="contain" -->
+The presentation contains a live screen demo at this stage.
 
 Note:
 * `cd /tmp`
