@@ -9,9 +9,9 @@ Florian Haas | [@xahteiwi](https://twitter.com/xahteiwi)
 
 linux.conf.au 2018 | January 26, 2018
 
-Note: I would like to acknowledge the Gadigal of the Eora Nation, the
-traditional custodians of this land and pay my respects to the Elders
-both past and present.
+Note: I would like to acknowledge the Gadigal of the Eora Nation who
+are the traditional custodians of this land, and pay my respects to
+their Elders both past and present.
 
 I would also like to acknowlege Linux Australia, the custodians of
 LCA, and pay my respects to all conference organizers and volunteers
@@ -56,7 +56,8 @@ vs.
 containers
 
 
-# Why?
+# Why
+would we want a containerized desktop?
 
 Note: Why would you want to run applications in containers on your
 desktop? Specifically, why in _system_ containers?
