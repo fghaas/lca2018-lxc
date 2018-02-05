@@ -1,3 +1,9 @@
+> Please note that the instructions in this tutorial have been written
+> for Ubuntu 16.04 Xenial Xerus. Your mileage may vary on other
+> platforms. In particular, if you’re on Fedora, you’ll be unable to run
+> unprivileged LXC containers (as of February 2018), as explained in
+> [this issue](https://github.com/lxc/lxc/issues/1998).
+
 # Command cheat sheet
 
 This is for linux.conf.au 2018 attendees. It is **not** a complete
